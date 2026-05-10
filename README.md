@@ -46,15 +46,15 @@
   Senha: @HelloW0rld
 </pre><h2>Prints de Cada Tela</h2>
 <h3>dashboard.jsx</h3>
-<img src="https://ibb.co/BKH6YQyV">
+<a href="https://ibb.co/BKH6YQyV"><img src="https://i.ibb.co/x8KgrB1S/Dashboard.png" alt="Dashboard" border="0" /></a>
 <h3>register.jsx</h3>
-<img src="https://ibb.co/pByQZBbY">
+<a href="https://ibb.co/pByQZBbY"><img src="https://i.ibb.co/sdHCQdb8/Registro.png" alt="Registro" border="0" /></a>
 <h3>login.jsx</h3>
-<img src="https://ibb.co/G4dT8hR0">
+<a href="https://ibb.co/G4dT8hR0"><img src="https://i.ibb.co/hJgf4qVy/Login.png" alt="Login" border="0" /></a>
 <h3>create.jsx</h3>
-<img src="https://ibb.co/h180fHrs">
+<a href="https://ibb.co/h180fHrs"><img src="https://i.ibb.co/TqhyLRJc/Criar-Curso.png" alt="Criar-Curso" border="0" /></a>
 <h3>lessons.jsx</h3>
-<img src="https://ibb.co/TxyPzqn0">
+<a href="https://ibb.co/TxyPzqn0"><img src="https://i.ibb.co/TxyPzqn0/Aulas.png" alt="Aulas" border="0" /></a>
 <h3>edit.jsx</h3>
-<img src="https://ibb.co/132Ddr1">
-
+<a href="https://ibb.co/132Ddr1">
+<img src="https://i.ibb.co/Y6jzycm/Editar-Curso.png" alt="Editar-Curso" border="0" /></a>

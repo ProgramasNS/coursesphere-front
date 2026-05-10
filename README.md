@@ -40,7 +40,7 @@
 <p>Agora, você pode acessá-lo por meio do endereço http://localhost:5173/ </p>
 <h2>Usuários de teste</h2>
 <p>Para testar a aplicação, você pode se registrar com este usuário: </p>
-<pre>pByQZBbY
+<pre>
   Nome: John Fields
   E-mail: johnfields@cn.com
   Senha: @HelloW0rld

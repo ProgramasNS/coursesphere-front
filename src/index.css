@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Six Hands', sans-serif;
+    src: url('');
+}
+.bg-custom {
+    background-color: #2c5f2d;
+    color: #f5f5dc;
+}
+.font-custom {
+    font-family: 'Six Hands';
+    font-size: 25px;
+}

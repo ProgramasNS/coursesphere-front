@@ -40,8 +40,21 @@
 <p>Agora, você pode acessá-lo por meio do endereço http://localhost:5173/ </p>
 <h2>Usuários de teste</h2>
 <p>Para testar a aplicação, você pode se registrar com este usuário: </p>
-<pre>
+<pre>pByQZBbY
   Nome: John Fields
   E-mail: johnfields@cn.com
   Senha: @HelloW0rld
-</pre>
+</pre><h2>Prints de Cada Tela</h2>
+<h3>dashboard.jsx</h3>
+<img src="https://ibb.co/BKH6YQyV">
+<h3>register.jsx</h3>
+<img src="https://ibb.co/pByQZBbY">
+<h3>login.jsx</h3>
+<img src="https://ibb.co/G4dT8hR0">
+<h3>create.jsx</h3>
+<img src="https://ibb.co/h180fHrs">
+<h3>lessons.jsx</h3>
+<img src="https://ibb.co/TxyPzqn0">
+<h3>edit.jsx</h3>
+<img src="https://ibb.co/132Ddr1">
+

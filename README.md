@@ -25,12 +25,8 @@
 <h2>Como executar</h2>
 <p>Para que a aplicação funcione, é necessário primeiro que a aplicação back-end esteja funcionando, algo que é explicado <a href="https://github.com/ProgramasNS/coursesphere-back#como-executar-o-projeto">aqui</a>.</p>
 <p>Após a aplicação back-end estar sendo executada, crie uma pasta específica e redirecione para ela no terminal (cmd ou PowerShell): </p>
-<h2>Como executar localmente (sem Docker)</h2>
-<p>Instale as dependências:</p>
-<code>npm install</code>
-<p>Execute o projeto:</p>
-<code>npm run dev</code>
-<p>Acesse: <code>http://localhost:5173</code></p>
+<p><code>mkdir nome_da_sua_pasta</code></p>
+<p>Depois clone o repositório: </p>
 <p><code>git clone https://github.com/ProgramasNS/coursesphere-front.git</code></p>
 <p>Após clonar o repositório, construa a aplicação por meio do Docker: </p>
 <p><code>sudo docker build -t coursesphere-front:latest .
@@ -38,6 +34,13 @@
 <p>e, após construir, execute-a:</p>
 <p><code>npm run dev</code></p>
 <p>Agora, você pode acessá-lo por meio do endereço http://localhost:5173/ </p>
+
+<h2>Como executar localmente (sem Docker)</h2>
+<p>Instale as dependências:</p>
+<code>npm install</code>
+<p>Execute o projeto:</p>
+<code>npm run dev</code>
+<p>Acesse: <code>http://localhost:5173</code></p>
 <h2>Usuários de teste</h2>
 <p>Para testar a aplicação, você pode se registrar com este usuário: </p>
 <pre>

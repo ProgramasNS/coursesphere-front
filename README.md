@@ -28,7 +28,7 @@
 <p><code>mkdir nome_da_sua_pasta</code></p>
 <p>Depois clone o repositório: </p>
 <p><code>git clone https://github.com/ProgramasNS/coursesphere-front.git</code></p>
-<p>Após clonar o repositório, construa a aplicação por meio do Docker: </p>
+<p>Após clonar o repositório, use <code>cd coursesphere-front</code> e construa a aplicação por meio do Docker: </p>
 <p><code>sudo docker build -t coursesphere-front:latest .
 </code> para usuários de Linux ou <code>docker build -t coursesphere-front:latest .</code></p>
 <p>e, após construir, execute-a:</p>

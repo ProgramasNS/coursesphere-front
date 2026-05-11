@@ -5,6 +5,7 @@ import Register from './pages/register';
 import Dashboard from './pages/dashboard';
 import Create from './pages/create';
 import Lessons from './pages/lessons';
+import EditCourse from './pages/edit';
 
 function App() {
   const token = localStorage.getItem('token');
@@ -23,6 +24,7 @@ function App() {
           path="/courses/:id" 
           element={isAuthenticated ? <Lessons /> : <Navigate to="/login" />} 
           />
+          <Route path="/courses/edit/:id" element={<EditCourse />} />
           <Route path="/" element={<Navigate to="/login" />} />
         </Routes>
       </BrowserRouter>

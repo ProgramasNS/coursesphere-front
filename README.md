@@ -1,4 +1,4 @@
-<code>npm run dev</code<h1>Projeto coursesphere-front</h1>
+<h1>Projeto coursesphere-front</h1>
 <h2>O que é?</h2>
 <p>Trata-se da parte front-end do Projeto CourseSphere, cuja parte back-end pode ser acessada <a href="https://github.com/ProgramasNS/coursesphere-back">aqui</a>.</p>
 <h2>Quais tecnologias a aplicação usa?</h2>

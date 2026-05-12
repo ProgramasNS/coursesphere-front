@@ -1,4 +1,4 @@
-<h1>Projeto coursesphere-front</h1>
+<code>npm run dev</code<h1>Projeto coursesphere-front</h1>
 <h2>O que é?</h2>
 <p>Trata-se da parte front-end do Projeto CourseSphere, cuja parte back-end pode ser acessada <a href="https://github.com/ProgramasNS/coursesphere-back">aqui</a>.</p>
 <h2>Quais tecnologias a aplicação usa?</h2>
@@ -32,8 +32,8 @@
 <p><code>sudo docker build -t coursesphere-front:latest .
 </code> para usuários de Linux ou <code>docker build -t coursesphere-front:latest .</code></p>
 <p>e, após construir, execute-a:</p>
-<p><code>npm run dev</code></p>
-<p>Agora, você pode acessá-lo por meio do endereço http://localhost:5173/ </p>
+<p><code>docker run -d -p 8080:80 coursesphere-front:latest</code></p>
+<p>Agora, você pode acessá-lo por meio do endereço http://localhost:8080/ </p>
 
 <h2>Como executar localmente (sem Docker)</h2>
 <p>Instale as dependências:</p>

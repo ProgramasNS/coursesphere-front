@@ -41,6 +41,8 @@
 <p>Execute o projeto:</p>
 <code>npm run dev</code>
 <p>Acesse: <code>http://localhost:5173</code></p>
+<h2>O site oficial</h2>
+<p>O back-end do site foi implementado através do Render, enquanto o front-end foi implementado através do Netlify. Caso queira acessar a aplicação pelo website <a href="https://coursesphere-front.netlify.app">clique aqui</a>.</p>
 <h2>Usuários de teste</h2>
 <p>Para testar a aplicação, você pode se registrar com este usuário: </p>
 <pre>

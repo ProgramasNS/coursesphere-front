@@ -18,6 +18,59 @@ export default function Lessons() {
     });
     const [submitting, setSubmitting] = useState(false);
 
+    // Estado para edicao
+    const [editingLesson, setEditingLesson] = useState(null);
+    const [editTitle, setEditTitle] = useState('');
+    const [editStatus, setEditStatus] = useState('');
+    const [editVideoUrl, setEditVideoUrl] = useState('');
+    const [editing, setEditing] = useState(false);
+    
+    //Funções para edição
+    const startEdit = (lesson) => {
+        setEditingLesson(lesson);
+        setEditTitle(lesson.title);
+        setEditStatus(lesson.status);
+        setEditVideoUrl(lesson.video_url || '');
+        setEditing(true);
+    };
+
+    const cancelEdit = () => {
+        setEditingLesson(null);
+        setEditing(false);
+    };
+
+    const saveEdit = async () => {
+        const token = localStorage.getItem('token');
+        
+        try {
+            const response = await fetch(`http://localhost:3000/api/lesson/${editingLesson.id}`, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    title: editTitle,
+                    status: editStatus,
+                    video_url: editVideoUrl
+                })
+            });
+            
+            if (!response.ok) throw new Error('Erro ao atualizar aula');
+            
+            setLessons(lessons.map(lesson => 
+                lesson.id === editingLesson.id 
+                    ? { ...lesson, title: editTitle, status: editStatus, video_url: editVideoUrl }
+                    : lesson
+            ));
+            
+            alert('Aula atualizada com sucesso!');
+            cancelEdit();
+        } catch (err) {
+            alert(err.message);
+        }
+    };
+    
     // Diferencial 1: API Externa (RandomUser)
     const [instrutor, setInstrutor] = useState(null);
     const [loadingInstrutor, setLoadingInstrutor] = useState(false);

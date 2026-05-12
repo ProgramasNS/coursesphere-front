@@ -170,6 +170,12 @@ export default function Dashboard() {
                                                 Ver aulas
                                             </button>
                                             <button 
+                                            className="btn btn-outline-warning btn-sm ms-2"
+                                            onClick={() => navigate(`/courses/edit/${course.id}`)}
+                                            >
+                                                <i className="bi bi-pencil"></i> Editar
+                                            </button>
+                                            <button 
                                             className="btn btn-outline-danger btn-sm mt-2 ms-2"
                                             onClick={() => deleteCourse(course.id)}
                                             >

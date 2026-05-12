@@ -120,7 +120,7 @@ export default function Lessons() {
         const token = localStorage.getItem('token');
         
         try {
-            const response = await fetch('http://localhost:3000/api/lesson/', {
+            const response = await fetch(`http://localhost:3000/api/lesson/`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -129,7 +129,7 @@ export default function Lessons() {
                 body: JSON.stringify({
                     title: newLesson.title,
                     status: newLesson.status,
-                    video_url: newLesson.video_url,
+                    video_url: newLesson.video_url.trim() === "" ? null : newLesson.video_url,
                     course_id: parseInt(id)
                 })
             });

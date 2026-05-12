@@ -386,6 +386,13 @@ export default function Lessons() {
                                         )}
                                     </div>
                                     <button 
+                                    className="btn btn-outline-warning btn-sm me-1"
+                                    onClick={() => startEdit(lesson)}
+                                    >
+                                        <i className="bi bi-pencil"></i> Editar
+                                    </button>
+        
+                                    <button 
                                         className="btn btn-outline-danger btn-sm"
                                         onClick={() => handleDeleteLesson(lesson.id)}
                                     >

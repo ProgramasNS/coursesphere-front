@@ -122,7 +122,7 @@ export default function Lessons() {
                 body: JSON.stringify({
                     title: newLesson.title,
                     status: newLesson.status,
-                    video_url: newLesson.video_url,
+                    video_url: newLesson.video_url || '',
                     course_id: parseInt(id)
                 })
             });
